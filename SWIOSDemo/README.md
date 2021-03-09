@@ -8,13 +8,6 @@
 
 # Swirepay_IOS_DEMO
 
-[![CI Status](https://img.shields.io/travis/swirepay/Swirepay_IOS_SDK.svg?style=flat)](https://travis-ci.org/swirepay/Swirepay_IOS_SDK)
-[![Version](https://img.shields.io/cocoapods/v/Swirepay_IOS_SDK.svg?style=flat)](https://cocoapods.org/pods/Swirepay_IOS_SDK)
-[![License](https://img.shields.io/cocoapods/l/Swirepay_IOS_SDK.svg?style=flat)](https://cocoapods.org/pods/Swirepay_IOS_SDK)
-[![Platform](https://img.shields.io/cocoapods/p/Swirepay_IOS_SDK.svg?style=flat)](https://cocoapods.org/pods/Swirepay_IOS_SDK)
-
-## Swirepay IOS SDK
-
 Swirepay iOS SDK helps developers implement a native payment experience in their iOS application. The SDK requires minimal setup to get started and helps developers process payments under 30 seconds while being PCI compliant.
 
 
