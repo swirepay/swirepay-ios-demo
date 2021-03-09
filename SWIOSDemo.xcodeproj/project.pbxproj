@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7D423BF5045B900FEE35A3 /* Pods_SWIOSDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECECEF8E93047E76A9940494 /* Pods_SWIOSDemoTests.framework */; };
+		2239912730AB5C26E470F442 /* Pods_SWIOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6441F73B67311AC87E441BFF /* Pods_SWIOSDemo.framework */; };
+		32A6BD695C308729D5F3686F /* Pods_SWIOSDemo_SWIOSDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99661C068992A5CC9BB717F6 /* Pods_SWIOSDemo_SWIOSDemoUITests.framework */; };
+		609D415625F0E815006715CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D415525F0E815006715CB /* AppDelegate.swift */; };
+		609D415825F0E815006715CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D415725F0E815006715CB /* SceneDelegate.swift */; };
+		609D415A25F0E815006715CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D415925F0E815006715CB /* ViewController.swift */; };
+		609D415D25F0E815006715CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609D415B25F0E815006715CB /* Main.storyboard */; };
+		609D415F25F0E819006715CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609D415E25F0E819006715CB /* Assets.xcassets */; };
+		609D416225F0E819006715CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609D416025F0E819006715CB /* LaunchScreen.storyboard */; };
+		609D416D25F0E81A006715CB /* SWIOSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D416C25F0E81A006715CB /* SWIOSDemoTests.swift */; };
+		609D417825F0E81A006715CB /* SWIOSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D417725F0E81A006715CB /* SWIOSDemoUITests.swift */; };
+		609D418925F0E8D3006715CB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 609D418825F0E8D3006715CB /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		609D416925F0E81A006715CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609D414A25F0E815006715CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609D415125F0E815006715CB;
+			remoteInfo = SWIOSDemo;
+		};
+		609D417425F0E81A006715CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 609D414A25F0E815006715CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 609D415125F0E815006715CB;
+			remoteInfo = SWIOSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		251C05B5ABA27EB9D44AD0C0 /* Pods-SWIOSDemo-SWIOSDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIOSDemo-SWIOSDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SWIOSDemo-SWIOSDemoUITests/Pods-SWIOSDemo-SWIOSDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54D93C410C59CAA7D4D888E2 /* Pods-SWIOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIOSDemo.release.xcconfig"; path = "Target Support Files/Pods-SWIOSDemo/Pods-SWIOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		609D415225F0E815006715CB /* SWIOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWIOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		609D415525F0E815006715CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		609D415725F0E815006715CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		609D415925F0E815006715CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		609D415C25F0E815006715CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		609D415E25F0E819006715CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		609D416125F0E819006715CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		609D416325F0E819006715CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609D416825F0E81A006715CB /* SWIOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWIOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		609D416C25F0E81A006715CB /* SWIOSDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIOSDemoTests.swift; sourceTree = "<group>"; };
+		609D416E25F0E81A006715CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609D417325F0E81A006715CB /* SWIOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWIOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		609D417725F0E81A006715CB /* SWIOSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIOSDemoUITests.swift; sourceTree = "<group>"; };
+		609D417925F0E81A006715CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609D418825F0E8D3006715CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6441F73B67311AC87E441BFF /* Pods_SWIOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		939D9F7BBD2164CBEB8296FF /* Pods-SWIOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-SWIOSDemo/Pods-SWIOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		99661C068992A5CC9BB717F6 /* Pods_SWIOSDemo_SWIOSDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIOSDemo_SWIOSDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6AC5E94865A403F33DB9A1 /* Pods-SWIOSDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIOSDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SWIOSDemoTests/Pods-SWIOSDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C770F3BA316A42D51E363E9A /* Pods-SWIOSDemo-SWIOSDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIOSDemo-SWIOSDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SWIOSDemo-SWIOSDemoUITests/Pods-SWIOSDemo-SWIOSDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECECEF8E93047E76A9940494 /* Pods_SWIOSDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIOSDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC54FE2C8F441551E0E0231C /* Pods-SWIOSDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIOSDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SWIOSDemoTests/Pods-SWIOSDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		609D414F25F0E815006715CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2239912730AB5C26E470F442 /* Pods_SWIOSDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609D416525F0E81A006715CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7D423BF5045B900FEE35A3 /* Pods_SWIOSDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609D417025F0E81A006715CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A6BD695C308729D5F3686F /* Pods_SWIOSDemo_SWIOSDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E976185E50A50F8C066CD4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6441F73B67311AC87E441BFF /* Pods_SWIOSDemo.framework */,
+				99661C068992A5CC9BB717F6 /* Pods_SWIOSDemo_SWIOSDemoUITests.framework */,
+				ECECEF8E93047E76A9940494 /* Pods_SWIOSDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		609D414925F0E815006715CB = {
+			isa = PBXGroup;
+			children = (
+				609D415425F0E815006715CB /* SWIOSDemo */,
+				609D416B25F0E81A006715CB /* SWIOSDemoTests */,
+				609D417625F0E81A006715CB /* SWIOSDemoUITests */,
+				609D415325F0E815006715CB /* Products */,
+				CC59C3A337E94F795E24D65F /* Pods */,
+				4E976185E50A50F8C066CD4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		609D415325F0E815006715CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				609D415225F0E815006715CB /* SWIOSDemo.app */,
+				609D416825F0E81A006715CB /* SWIOSDemoTests.xctest */,
+				609D417325F0E81A006715CB /* SWIOSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		609D415425F0E815006715CB /* SWIOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				609D415525F0E815006715CB /* AppDelegate.swift */,
+				609D415725F0E815006715CB /* SceneDelegate.swift */,
+				609D415925F0E815006715CB /* ViewController.swift */,
+				609D415B25F0E815006715CB /* Main.storyboard */,
+				609D415E25F0E819006715CB /* Assets.xcassets */,
+				609D416025F0E819006715CB /* LaunchScreen.storyboard */,
+				609D416325F0E819006715CB /* Info.plist */,
+				609D418825F0E8D3006715CB /* README.md */,
+			);
+			path = SWIOSDemo;
+			sourceTree = "<group>";
+		};
+		609D416B25F0E81A006715CB /* SWIOSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				609D416C25F0E81A006715CB /* SWIOSDemoTests.swift */,
+				609D416E25F0E81A006715CB /* Info.plist */,
+			);
+			path = SWIOSDemoTests;
+			sourceTree = "<group>";
+		};
+		609D417625F0E81A006715CB /* SWIOSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				609D417725F0E81A006715CB /* SWIOSDemoUITests.swift */,
+				609D417925F0E81A006715CB /* Info.plist */,
+			);
+			path = SWIOSDemoUITests;
+			sourceTree = "<group>";
+		};
+		CC59C3A337E94F795E24D65F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939D9F7BBD2164CBEB8296FF /* Pods-SWIOSDemo.debug.xcconfig */,
+				54D93C410C59CAA7D4D888E2 /* Pods-SWIOSDemo.release.xcconfig */,
+				C770F3BA316A42D51E363E9A /* Pods-SWIOSDemo-SWIOSDemoUITests.debug.xcconfig */,
+				251C05B5ABA27EB9D44AD0C0 /* Pods-SWIOSDemo-SWIOSDemoUITests.release.xcconfig */,
+				AB6AC5E94865A403F33DB9A1 /* Pods-SWIOSDemoTests.debug.xcconfig */,
+				FC54FE2C8F441551E0E0231C /* Pods-SWIOSDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		609D415125F0E815006715CB /* SWIOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609D417C25F0E81A006715CB /* Build configuration list for PBXNativeTarget "SWIOSDemo" */;
+			buildPhases = (
+				B21A12A96CECA2A0011BFACC /* [CP] Check Pods Manifest.lock */,
+				609D414E25F0E815006715CB /* Sources */,
+				609D414F25F0E815006715CB /* Frameworks */,
+				609D415025F0E815006715CB /* Resources */,
+				6AE88A8C084C5E1AE6701E57 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWIOSDemo;
+			productName = SWIOSDemo;
+			productReference = 609D415225F0E815006715CB /* SWIOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		609D416725F0E81A006715CB /* SWIOSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609D417F25F0E81A006715CB /* Build configuration list for PBXNativeTarget "SWIOSDemoTests" */;
+			buildPhases = (
+				62303862C7068B90E813435D /* [CP] Check Pods Manifest.lock */,
+				609D416425F0E81A006715CB /* Sources */,
+				609D416525F0E81A006715CB /* Frameworks */,
+				609D416625F0E81A006715CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609D416A25F0E81A006715CB /* PBXTargetDependency */,
+			);
+			name = SWIOSDemoTests;
+			productName = SWIOSDemoTests;
+			productReference = 609D416825F0E81A006715CB /* SWIOSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		609D417225F0E81A006715CB /* SWIOSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 609D418225F0E81A006715CB /* Build configuration list for PBXNativeTarget "SWIOSDemoUITests" */;
+			buildPhases = (
+				262691AB8090DF36C222A739 /* [CP] Check Pods Manifest.lock */,
+				609D416F25F0E81A006715CB /* Sources */,
+				609D417025F0E81A006715CB /* Frameworks */,
+				609D417125F0E81A006715CB /* Resources */,
+				3382951E53B2B9E976EDDDCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				609D417525F0E81A006715CB /* PBXTargetDependency */,
+			);
+			name = SWIOSDemoUITests;
+			productName = SWIOSDemoUITests;
+			productReference = 609D417325F0E81A006715CB /* SWIOSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		609D414A25F0E815006715CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					609D415125F0E815006715CB = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					609D416725F0E81A006715CB = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 609D415125F0E815006715CB;
+					};
+					609D417225F0E81A006715CB = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 609D415125F0E815006715CB;
+					};
+				};
+			};
+			buildConfigurationList = 609D414D25F0E815006715CB /* Build configuration list for PBXProject "SWIOSDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 609D414925F0E815006715CB;
+			productRefGroup = 609D415325F0E815006715CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				609D415125F0E815006715CB /* SWIOSDemo */,
+				609D416725F0E81A006715CB /* SWIOSDemoTests */,
+				609D417225F0E81A006715CB /* SWIOSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		609D415025F0E815006715CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609D416225F0E819006715CB /* LaunchScreen.storyboard in Resources */,
+				609D415F25F0E819006715CB /* Assets.xcassets in Resources */,
+				609D415D25F0E815006715CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609D416625F0E81A006715CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609D417125F0E81A006715CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262691AB8090DF36C222A739 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWIOSDemo-SWIOSDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3382951E53B2B9E976EDDDCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWIOSDemo-SWIOSDemoUITests/Pods-SWIOSDemo-SWIOSDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWIOSDemo-SWIOSDemoUITests/Pods-SWIOSDemo-SWIOSDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWIOSDemo-SWIOSDemoUITests/Pods-SWIOSDemo-SWIOSDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62303862C7068B90E813435D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWIOSDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE88A8C084C5E1AE6701E57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWIOSDemo/Pods-SWIOSDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWIOSDemo/Pods-SWIOSDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWIOSDemo/Pods-SWIOSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21A12A96CECA2A0011BFACC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWIOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		609D414E25F0E815006715CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609D415A25F0E815006715CB /* ViewController.swift in Sources */,
+				609D418925F0E8D3006715CB /* README.md in Sources */,
+				609D415625F0E815006715CB /* AppDelegate.swift in Sources */,
+				609D415825F0E815006715CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609D416425F0E81A006715CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609D416D25F0E81A006715CB /* SWIOSDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609D416F25F0E81A006715CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				609D417825F0E81A006715CB /* SWIOSDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		609D416A25F0E81A006715CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609D415125F0E815006715CB /* SWIOSDemo */;
+			targetProxy = 609D416925F0E81A006715CB /* PBXContainerItemProxy */;
+		};
+		609D417525F0E81A006715CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 609D415125F0E815006715CB /* SWIOSDemo */;
+			targetProxy = 609D417425F0E81A006715CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		609D415B25F0E815006715CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609D415C25F0E815006715CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		609D416025F0E819006715CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				609D416125F0E819006715CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		609D417A25F0E81A006715CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		609D417B25F0E81A006715CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		609D417D25F0E81A006715CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939D9F7BBD2164CBEB8296FF /* Pods-SWIOSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Swirepay_IOS/Swirepay_IOS.framework/Headers\"",
+					"$(SRCROOT)/Pods",
+				);
+				INFOPLIST_FILE = SWIOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SWIOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		609D417E25F0E81A006715CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D93C410C59CAA7D4D888E2 /* Pods-SWIOSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Swirepay_IOS/Swirepay_IOS.framework/Headers\"",
+					"$(SRCROOT)/Pods",
+				);
+				INFOPLIST_FILE = SWIOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SWIOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		609D418025F0E81A006715CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6AC5E94865A403F33DB9A1 /* Pods-SWIOSDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWIOSDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SWIOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWIOSDemo.app/SWIOSDemo";
+			};
+			name = Debug;
+		};
+		609D418125F0E81A006715CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC54FE2C8F441551E0E0231C /* Pods-SWIOSDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWIOSDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SWIOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWIOSDemo.app/SWIOSDemo";
+			};
+			name = Release;
+		};
+		609D418325F0E81A006715CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C770F3BA316A42D51E363E9A /* Pods-SWIOSDemo-SWIOSDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWIOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SWIOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SWIOSDemo;
+			};
+			name = Debug;
+		};
+		609D418425F0E81A006715CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251C05B5ABA27EB9D44AD0C0 /* Pods-SWIOSDemo-SWIOSDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWIOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SWIOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SWIOSDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		609D414D25F0E815006715CB /* Build configuration list for PBXProject "SWIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609D417A25F0E81A006715CB /* Debug */,
+				609D417B25F0E81A006715CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609D417C25F0E81A006715CB /* Build configuration list for PBXNativeTarget "SWIOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609D417D25F0E81A006715CB /* Debug */,
+				609D417E25F0E81A006715CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609D417F25F0E81A006715CB /* Build configuration list for PBXNativeTarget "SWIOSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609D418025F0E81A006715CB /* Debug */,
+				609D418125F0E81A006715CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		609D418225F0E81A006715CB /* Build configuration list for PBXNativeTarget "SWIOSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609D418325F0E81A006715CB /* Debug */,
+				609D418425F0E81A006715CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 609D414A25F0E815006715CB /* Project object */;
+}

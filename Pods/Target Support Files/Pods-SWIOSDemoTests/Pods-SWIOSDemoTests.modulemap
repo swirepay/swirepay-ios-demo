@@ -1,0 +1,6 @@
+framework module Pods_SWIOSDemoTests {
+  umbrella header "Pods-SWIOSDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
